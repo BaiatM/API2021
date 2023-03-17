@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Fall2021API" />
         <module name="Fall2021APISDET" />
+        <module name="API2021" />
       </profile>
     </annotationProcessing>
   </component>

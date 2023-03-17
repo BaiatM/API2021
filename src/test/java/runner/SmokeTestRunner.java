@@ -1,3 +1,5 @@
+package runner;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -10,8 +12,9 @@ import org.junit.runner.RunWith;
         },
         features = "classpath:features",
         glue = "step_defs",
-        tags = "@regression"
+        tags = "@smoke"
+
 )
-public class RegressionRunner {
+public class SmokeTestRunner {
 
 }
